@@ -1,0 +1,204 @@
+.body{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-1{
+    background-image: url("images/hero-cover.3.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.page-2{
+    margin-top: -100px;
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+
+}
+ul li{
+    float:left;
+}
+ul li a{
+    display: inline;
+    padding:30px ;
+}
+button{
+    padding: 8px;
+    border-radius: 10px 10px 0 10px;
+    background-color: steelblue;
+}
+.begin{
+    font-size: larger;
+}
+
+.proactive{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 350px;
+    text-align: center;
+
+}
+.b{
+    background-color: unset;
+}
+.extend{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.extend1{
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px;
+    align-items: center;
+    text-align: center;
+}
+.extend2{
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px;
+    align-items: center;
+    text-align: center;
+}
+.extend3{
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: 5px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.568);
+}
+.potential{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.potential1{
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px;
+    align-items: center;
+    text-align: center;
+}
+.potential2{
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px;
+    align-items: center;
+    text-align: center;
+}
+.potential3{
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px;
+    align-items: center;
+    text-align: center;
+}
+.industry{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 200px;
+    text-align: center;
+
+
+}
+.tool{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+.photo{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.photo1{
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: 5px;
+    align-items: center;
+    text-align: center;
+}
+.photo2{
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: 5px;
+    align-items: center;
+    text-align: center;
+    
+}
+.photo3{
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: 5px;
+    align-items: center;
+    text-align: center;
+}
+.tool{
+    justify-content: space-between;
+    display: flex;
+
+    
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, blue, orange,purple);
+    align-items: center;
+    padding: 25px;
+}
+
+.pricing{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 80px;
+    text-align: center;
+}
+.board{
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+}
+.world{
+    padding: 100px;
+}
