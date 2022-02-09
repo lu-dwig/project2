@@ -1,9 +1,6 @@
 .body{
-    margin: 0;
-    padding: 0;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
+    
 }
 .page-1{
     background-image: url("images/hero-cover.3.png");
@@ -12,7 +9,10 @@
     height: 100vh;
 }
 .page-2{
-    margin-top: -100px;
+    margin-top: -110px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .navbar{
     height: 100%;
@@ -57,12 +57,8 @@ button{
 .extend{
     padding: 50px;
     display: flex;
-    flex-direction: row;
-    background-color: white;
     margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+    justify-content: space-evenly;
 }
 .extend1{
     justify-content: center;
@@ -126,8 +122,7 @@ button{
 .industry{
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
-    padding: 200px;
+    padding: 10px;
     text-align: center;
 
 
@@ -173,6 +168,9 @@ button{
     align-items: center;
     text-align: center;
 }
+.star{
+    margin-left: 25px;
+}
 .tool{
     justify-content: space-between;
     display: flex;
@@ -197,8 +195,41 @@ button{
 .board{
     display: flex;
     text-align: justify;
-    flex-direction: row;
+    
+}
+.board1{
+    border: mediumblue;
+    border-radius: 5px;
+}
+.page-4{
+    background:rgba(rgb(15, 15, 41) ) url("images/pngwing 1.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 .world{
     padding: 100px;
+    
+}
+.form{
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+.appoint{
+    padding: 20px;
+}
+.finish{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    padding: 50px;
+
+}
+ul li {
+    list-style-type: none;
+    
 }
